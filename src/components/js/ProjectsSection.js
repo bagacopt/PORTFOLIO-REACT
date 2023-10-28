@@ -4,8 +4,8 @@ import '../css/ProjectsSection.css';
 
 function ProjectsSection() {
   return (
-    <div>
-      
+    <div className='container'>
+      <h1> Projects </h1>
     </div>
   )
 }

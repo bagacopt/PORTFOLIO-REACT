@@ -19,15 +19,18 @@ function Navbar() {
 
   const scrollDown = (elementID) => {
     const idElement = document.getElementById(elementID);
-    if (idElement) {
-      idElement.scrollIntoView({ behavior: 'smooth' });
+    if (elementID == 'home') {
+      window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+    } else {
+      idElement.scrollIntoView({ behavior: 'smooth'});
+    }
 
-      // Create a custom event and dispatch it with the elementID
-      const scrollEvent = new CustomEvent('scrollToElement', {
-        detail: { elementID },
-      });
-      window.dispatchEvent(scrollEvent);
-    }}
+    // Create a custom event and dispatch it with the elementID
+    const scrollEvent = new CustomEvent('scrollToElement', {
+      detail: { elementID },
+    });
+    window.dispatchEvent(scrollEvent);
+  }
 
   useEffect(() =>{
     showButton();

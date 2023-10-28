@@ -24,6 +24,10 @@ video{
     margin-top: -100px;
 }
 
+.typed-cursor{
+    color: transparent;
+}
+
 .hero-container > h2{
     margin-top: 8px;
     color: #fff;
@@ -35,11 +39,13 @@ video{
     position: relative;
     margin-top: 32px;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    animation: upAndDown 1s infinite alternate;
 }
 
-.hovering{
-    animation: moveUpDown 2s linear;
-}
+.hovering {
+    animation: moveUpDown 2s linear infinite; /* Loop the animation infinitely */
+  }
 
 .hero-btns .btn{
     margin: 6px;
