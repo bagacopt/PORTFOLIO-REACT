@@ -1,13 +1,13 @@
 import React from 'react';
-import Navbar from './components/js/Navbar';
+import Navbar from './components/js/pages/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Home from './components/pages/Home';
-import About from './components/pages/AboutMe';
-import Skills from './components/pages/Skills';
-import Projects from './components/pages/Projects';
-import Achievements from './components/pages/Achievements';
-import ContactMe from './components/pages/ContactMe';
+import Home from './components/js/pages/Home';
+import About from './components/js/pages/AboutMe';
+import Skills from './components/js/pages/Skills';
+import Projects from './components/js/pages/Projects';
+import Achievements from './components/js/pages/Achievements';
+import ContactMe from './components/js/pages/ContactMe';
 
 function App() {
   return (

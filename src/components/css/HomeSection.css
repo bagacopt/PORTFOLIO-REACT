@@ -32,7 +32,13 @@ video{
 }
 
 .hero-btns{
+    position: relative;
     margin-top: 32px;
+    cursor: pointer;
+}
+
+.hovering{
+    animation: moveUpDown 2s linear;
 }
 
 .hero-btns .btn{
@@ -76,3 +82,11 @@ video{
     }
 }
 
+@keyframes moveUpDown {
+    0%,100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(30px); /* Adjust the value to control the amount of movement */
+    }
+  }
