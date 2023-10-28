@@ -61,11 +61,6 @@ function Navbar() {
                   Projects
                 </Link>
               </li>
-              <li className='nav-item'>
-                <Link className='nav-links' onClick={() => { closeMobileMenu(); scrollDown('achievements'); }}>
-                  Achievements
-                </Link>
-              </li>
             </ul>
             
             <Link onClick={() => { closeMobileMenu(); scrollDown('contact'); }}>

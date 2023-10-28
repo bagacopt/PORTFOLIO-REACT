@@ -6,7 +6,6 @@ import Home from './components/js/pages/Home';
 import About from './components/js/pages/AboutMe';
 import Skills from './components/js/pages/Skills';
 import Projects from './components/js/pages/Projects';
-import Achievements from './components/js/pages/Achievements';
 import ContactMe from './components/js/pages/ContactMe';
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
       <Route path='/about' exact Component={About} />
       <Route path='/skills' exact Component={Skills} />
       <Route path ='/projects' exact Component={Projects} />
-      <Route path ='/achievements' exact Component={Achievements} />
       <Route path = '/contact' exact Component={ContactMe} />
       </Routes>
     </Router>
