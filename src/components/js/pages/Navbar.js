@@ -19,8 +19,16 @@ function Navbar() {
 
   const scrollDown = (elementID) => {
     const idElement = document.getElementById(elementID);
-    if (elementID == 'home') {
-      window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+    if (elementID === 'home') {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else if (elementID === 'about') {
+      window.scrollTo({ top: 965, behavior: 'smooth' });
+    } else if (elementID === 'skills') {
+      window.scrollTo({ top: 1669, behavior: 'smooth' });
+    } else if (elementID === 'projects') {
+      window.scrollTo({ top: 2373, behavior: 'smooth' });
+    } else if (elementID === 'contact') {
+      window.scrollTo({ top: 3077, behavior: 'smooth' });
     } else {
       idElement.scrollIntoView({ behavior: 'smooth'});
     }

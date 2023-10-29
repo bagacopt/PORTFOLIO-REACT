@@ -5,7 +5,6 @@ import AboutMeSection from '../AboutMeSection';
 import SkillsSection from '../SkillsSection';
 import ProjectsSection from '../ProjectsSection';
 import ContactMeSection from '../ContactMeSection';
-import Footer from '../pages/Footer';
 
 function Home(){
     return (
