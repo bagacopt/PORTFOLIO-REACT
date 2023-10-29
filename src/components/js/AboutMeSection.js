@@ -14,20 +14,18 @@ function AboutMeSection(){
                     <img src='../images/about-img.png' className='container-img' />
                 </div>
                 <div className='container-separator' />
-
-                
                 <div className='container-text'>
                     <p>
                         My name is Tomás Gouveia, I'm from Portugal and I'm a 18 years old freelancer
                         who achieves to gain more and more experience and knowledge about all kinds
-                        of programming languages and how we can use them in our daily basis to solve
+                        of programming languages and how we can use themonn our daily basis to solve
                         problems or other issues we might have with technology.
                     </p>
 
                     <p>
-                        I'm passionate for learning about technology and how it is changing the world
-                        we live in, and my biggest goal is to be able to make a difference on the
-                        world, for the better of everyone, for the better of the planet and for the advance
+                        I'm passionate about learning about technology and how it is changing the world
+                        we live in, and my biggest goal is to be able to make a difference in the
+                        world, for the better of everyone, for the better of the planet, and for the advance
                         of technology.
                     </p>
 
@@ -49,7 +47,6 @@ function AboutMeSection(){
                 </div>
             </div>
         </div>
-            
     )
 }
 
