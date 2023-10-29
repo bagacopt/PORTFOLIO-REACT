@@ -6,7 +6,7 @@ function ProjectsSection() {
   return (
     <div className='container'>
             <div className='container-title'>
-                <h1> Projects </h1>
+                <h1> PROJECTS </h1>
             </div>
 
             <div className='container-info'>

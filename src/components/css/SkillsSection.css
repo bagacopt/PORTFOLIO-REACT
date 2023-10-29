@@ -1,0 +1,21 @@
+.content-box{
+    width: 300px;
+    height: 600px;
+    background-color: #161a42;
+    border-radius: 30px;
+}
+
+.content-box:first-child{
+    margin-right: 35px;
+}
+
+.content-box:last-child {
+    margin-left: 35px;
+}
+
+.container-content{
+    display: inline-flex;
+    align-content: center;
+    left: 25%;
+    position: relative;
+}

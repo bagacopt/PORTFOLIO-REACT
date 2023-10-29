@@ -6,7 +6,7 @@ function ContactMeSection() {
   return (
     <div className='container'>
             <div className='container-title'>
-                <h1> Contact Me! </h1>
+                <h1> CONTACT ME! </h1>
             </div>
 
             <div className='container-info'>

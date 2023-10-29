@@ -18,7 +18,7 @@ function AboutMeSection(){
                     <p>
                         My name is Tomás Gouveia, I'm from Portugal and I'm a 18 years old freelancer
                         who achieves to gain more and more experience and knowledge about all kinds
-                        of programming languages and how we can use themonn our daily basis to solve
+                        of programming languages and how we can use them on our daily basis to solve
                         problems or other issues we might have with technology.
                     </p>
 

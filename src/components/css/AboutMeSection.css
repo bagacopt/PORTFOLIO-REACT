@@ -9,7 +9,6 @@
 
 .container-image{
     display: block;
-    margin-top: 50px;
     height: 500px;
     width: 500px;
     margin-left: 300px;
@@ -44,7 +43,7 @@
 }
 
 .container-text{
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .container-text > p{
@@ -95,6 +94,10 @@
         position: absolute;
         text-align: center;
         margin-bottom: 300px;
+    }
+
+    .container-title:first-child{
+        height: 50px;
     }
   
     .container-text > p {

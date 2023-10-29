@@ -22,11 +22,11 @@ function Navbar() {
     if (elementID === 'home') {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     } else if (elementID === 'about') {
-      window.scrollTo({ top: 965, behavior: 'smooth' });
+      window.scrollTo({ top: 995, behavior: 'smooth' });
     } else if (elementID === 'skills') {
-      window.scrollTo({ top: 1669, behavior: 'smooth' });
+      window.scrollTo({ top: 1649, behavior: 'smooth' });
     } else if (elementID === 'projects') {
-      window.scrollTo({ top: 2373, behavior: 'smooth' });
+      window.scrollTo({ top: 2403, behavior: 'smooth' });
     } else if (elementID === 'contact') {
       window.scrollTo({ top: 3077, behavior: 'smooth' });
     } else {
