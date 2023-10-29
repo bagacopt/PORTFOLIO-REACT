@@ -12,7 +12,8 @@
 }
 
 .container-logo{
-    float: right;
+    position: absolute;
+    right: 30px;
 }
 
 .container-logo a{

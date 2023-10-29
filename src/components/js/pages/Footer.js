@@ -11,7 +11,7 @@ function Footer() {
         </div>
         
         <div className='container-logo' href='https://github.com/bagacopt'>
-          <a href="https://github.com/bagacopt"><i class="fa-brands fa-github fa-xl"></i></a>
+          <a href="https://github.com/bagacopt"><i className="fa-brands fa-github fa-xl"></i></a>
         </div>
       </div>
     </footer>
