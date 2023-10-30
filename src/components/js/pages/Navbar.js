@@ -26,7 +26,7 @@ function Navbar() {
     } else if (elementID === 'skills') {
       window.scrollTo({ top: 1649, behavior: 'smooth' });
     } else if (elementID === 'projects') {
-      window.scrollTo({ top: 2403, behavior: 'smooth' });
+      window.scrollTo({ top: 2503, behavior: 'smooth' });
     } else if (elementID === 'contact') {
       window.scrollTo({ top: 3077, behavior: 'smooth' });
     } else {
