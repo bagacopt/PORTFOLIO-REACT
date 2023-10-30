@@ -28,7 +28,7 @@ function HomeSection() {
       <h1> PORTFOLIO </h1>
       <h2> <ReactTyped strings={["Designed by bagaco"]} typeSpeed={100} backSpeed={100} backDelay={3000} cursorChar=' />' loop /> </h2>
       <div className={`hero-btns ${hovering ? 'hovering' : ''}`}>
-        <i className="fas fa-arrow-down" size="2xl" style={{ color: "black" }} onClick={scrollDown} onMouseEnter={signAnimation} onMouseLeave={signStopped} />
+        <i className="fas fa-arrow-down" size="2xl" style={{ color: "#fff" }} onClick={scrollDown} onMouseEnter={signAnimation} onMouseLeave={signStopped} />
       </div>
     </div>
   );

@@ -11,7 +11,13 @@ function SkillsSection() {
 
         <div className='container-content'>
             <div className='content-box'>
+              <div className='content-box-logo'>
+                <img width="128" height="128" src="https://img.icons8.com/cotton/64/laptop-coding.png" alt="laptop-coding"/>
+              </div>
+
+              <div className='content-box-title'>
                 
+              </div>                
             </div>
 
             <div className='content-box'>

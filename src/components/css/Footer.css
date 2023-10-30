@@ -1,7 +1,9 @@
 .footer{
     position: relative;
     text-align: center;
-    height: 100px;
+    height: 80px;
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    font-size: 1.2rem;
 }
 
 .container-footer{
@@ -18,5 +20,9 @@
 
 .container-logo a{
     font-size: 30px;
-    color: #242424;
+    color: #fff;
+}
+
+.container-footer-text{
+    color: #fff;
 }
