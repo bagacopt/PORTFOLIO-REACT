@@ -10,6 +10,8 @@
     background: #161A42;
     border-radius: 20px;
     justify-content: center;
+    height: 250px;
+    margin-top: 55px;
 }
 
 .contacts ul, .contacts li, .contacts svg, .contacts a{
@@ -22,13 +24,29 @@
 .contacts svg{
     margin-right: 10px;
 }
+
+.contacts{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
 .contacts ul{
     display: grid;
+    position: relative;
     list-style-type: none;
-    margin-left: 20px;
     align-items: center;
-    margin-top: 40px;
-    margin-bottom: 60px;
+    flex-shrink: 0;
+    height: 150px;
+    justify-content: center;
+}
+
+.contacts ul:first-child{
+    margin-top: 45px;
+}
+
+.contacts ul li{
+    height: 30px;
 }
 
 .form{
@@ -36,7 +54,7 @@
     align-items: center;
     width: 350px;
     margin-right: 150px;
-    margin-left: 540px;
+    margin-left: 480px;
 }
 
 .form textarea{
@@ -44,7 +62,7 @@
 }
 
 .form input, .form textarea, .form button{
-    display: flex;
+    position: relative;
     height: 40px;
     background: #161A42;
     border-radius: 10px;
@@ -57,4 +75,17 @@
 .form button{
     display: inline-flex;
     justify-content: center;
+}
+
+
+.form-linear-text{
+    display: flex;
+}
+
+.form-linear-text input{
+   width: 200px; 
+}
+
+.form-linear-text input:first-child{
+    margin-right: 20px;
 }

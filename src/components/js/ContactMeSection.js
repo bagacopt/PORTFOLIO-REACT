@@ -11,8 +11,10 @@ function ContactMeSection() {
 
             <div className='contact-container-info'>
                 <div className='form'>
-                    <input type='text' placeholder='Name' name='name-txtbox'/>
-                    <input type='email' placeholder='Email' name='email-txtbox'/>
+                    <div className='form-linear-text'>
+                        <input type='text' placeholder='Name' name='name-txtbox'/>
+                        <input type='email' placeholder='Email' name='email-txtbox'/>
+                    </div>
                     <input type='text' placeholder='Subject' name='subject-txtbox'/>
                     <textarea placeholder='Message' name='message-txtbox'/>
                     <button type='submit'> Send Message </button>
