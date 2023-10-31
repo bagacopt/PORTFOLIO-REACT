@@ -10,8 +10,8 @@ function AboutMeSection(){
             </div>
 
             <div className='container-info'>
-                <div className='container-image'>
-                    <img src='../images/about-img.png' className='container-img' />
+                <div className='aboutme-container-image'>
+                    <img src='../images/about-img.png' className='aboutme-container-img' />
                 </div>
                 <div className='container-separator' />
                 <div className='container-text'>

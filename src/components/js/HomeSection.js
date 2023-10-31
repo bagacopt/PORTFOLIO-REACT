@@ -11,7 +11,7 @@ function HomeSection() {
 
   const scrollDown = () => {
     if (idElement) {
-      window.scrollTo({ top: 965, behavior: 'smooth' });
+      window.scrollTo({ top: 995, behavior: 'smooth' });
     }
   };
 

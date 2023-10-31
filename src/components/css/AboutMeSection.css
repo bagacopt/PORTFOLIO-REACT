@@ -7,11 +7,8 @@
     padding: 0;
 }
 
-.container-image{
+.aboutme-container-image{
     display: block;
-    height: 500px;
-    width: 500px;
-    margin-left: 300px;
 }
 
 .container-title{
@@ -34,11 +31,12 @@
     width: 100%;
 }
 
-.container-img{
+.aboutme-container-img{
     align-items: center;
     width: 500px;
-    height: 500px;
+    height: 450px;
     object-fit: cover;
+    border-radius: 50px;
 }
 
 .container-separator{
@@ -49,18 +47,22 @@
 .container-text{
     margin-top: 60px;
     color: #fff;
+    border-radius: 20px;
 }
 
 .container-text > p{
     text-align: justify;
     font-size: 20px;
     width: 600px;
+    background: transparent;
     margin-bottom: 30px;
     font-weight: medium;
 }
 
 .container-text > a{
     margin-right: 10px;
+    margin-left: 10px;
+    background: transparent;
 }
 
 @media screen and (max-width: 960px) {

@@ -1,0 +1,21 @@
+.container-image{
+    display: flex;
+    width: 340px;
+    height: 200px;
+    float: left;
+    margin: 50px;
+    background-color: white;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.container-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-image img{
+    width: 100%;
+    border-radius: 20px;
+}

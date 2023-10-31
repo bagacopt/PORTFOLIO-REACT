@@ -1,0 +1,60 @@
+.contact-container-info{
+    display: flex;
+    height: 350px;
+    justify-content: center;
+}
+
+.contacts{
+    display: flex;
+    width: 400px;
+    background: #161A42;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.contacts ul, .contacts li, .contacts svg, .contacts a{
+    display: flex;
+    align-items: center;
+    background: transparent;
+    color: #fff;
+}
+
+.contacts svg{
+    margin-right: 10px;
+}
+.contacts ul{
+    display: grid;
+    list-style-type: none;
+    margin-left: 20px;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.form{
+    display: grid;
+    align-items: center;
+    width: 350px;
+    margin-right: 150px;
+    margin-left: 540px;
+}
+
+.form textarea{
+    resize: vertical;
+}
+
+.form input, .form textarea, .form button{
+    display: flex;
+    height: 40px;
+    background: #161A42;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+}
+
+.form button{
+    display: inline-flex;
+    justify-content: center;
+}

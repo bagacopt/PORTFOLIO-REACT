@@ -24,11 +24,11 @@ function Navbar() {
     } else if (elementID === 'about') {
       window.scrollTo({ top: 995, behavior: 'smooth' });
     } else if (elementID === 'skills') {
-      window.scrollTo({ top: 1649, behavior: 'smooth' });
+      window.scrollTo({ top: 1591, behavior: 'smooth' });
     } else if (elementID === 'projects') {
-      window.scrollTo({ top: 2503, behavior: 'smooth' });
+      window.scrollTo({ top: 2451, behavior: 'smooth' });
     } else if (elementID === 'contact') {
-      window.scrollTo({ top: 3077, behavior: 'smooth' });
+      window.scrollTo({ top: 2997, behavior: 'smooth' });
     } else {
       idElement.scrollIntoView({ behavior: 'smooth'});
     }
@@ -74,7 +74,7 @@ function Navbar() {
               </li>
             </ul>
             
-            <Link onClick={() => { closeMobileMenu(); scrollDown('contact'); }}>
+            <Link onClick={() => { closeMobileMenu(); scrollDown('contact'); }} className='button'>
                 <Button buttonStyle='btn--outline'> 
                   Contact Me 
                 </Button>
