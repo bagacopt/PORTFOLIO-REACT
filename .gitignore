@@ -1,3 +1,4 @@
 /node_modules/.cache
 /node_modules/.cache/.default-development
 /node_modules/.cache/.eslintcache
+/.vs
