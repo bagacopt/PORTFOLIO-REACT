@@ -58,8 +58,18 @@
 }
 
 .form textarea{
+    display: -webkit-flex;
     resize: vertical;
     text-align: left;
+    justify-content: center;
+    padding: 1em 1em 1em 1em;
+    
+}
+
+.form textarea::placeholder{
+    text-align: center;
+    margin-top: 50%;
+    margin-bottom: 50%;
 }
 
 .form input, .form textarea, .form button{

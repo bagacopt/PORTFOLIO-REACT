@@ -1,8 +1,25 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import '../../App.css';
 import '../css/ContactMeSection.css';
+import emailjs from 'emailjs/browser';
 
 function ContactMeSection() {
+
+    const sendEmail = () => {
+        const form = useRef();
+
+        const send = (e) => {
+            e.preventDefault();
+
+            emailjs.sendForm(process.env.REACT_SERVICE_ID, process.env.REACT_TEMPLATE_ID, form.current)
+                .then((result) => {
+
+                }, (error) => {
+
+                });
+        }
+    }
+
   return (
     <div className='container'>
             <div className='container-title'>
@@ -17,7 +34,7 @@ function ContactMeSection() {
                     </div>
                     <input type='text' placeholder='Subject' name='subject-txtbox'/>
                     <textarea placeholder='Message' name='message-txtbox'/>
-                    <button type='submit'> Send Message </button>
+                    <button type='button'> Send Message </button>
                 </div>
 
                 <div className='contacts'>
