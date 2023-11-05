@@ -37,15 +37,15 @@ function SkillsSection() {
                     <a className='text'> HTML </a>
                   </li>
                   <li style={{marginTop: '25px'}}>
-                    <i class="fa-brands fa-css3-alt fa-2xl"></i>
+                    <i className="fa-brands fa-css3-alt fa-2xl"></i>
                     <a className='text'> CSS </a>
                   </li>
                   <li style={{marginTop: '25px'}}>
-                    <i class="fa-brands fa-square-js fa-2xl"></i>
+                    <i className="fa-brands fa-square-js fa-2xl"></i>
                     <a className='text'> JavaScript </a>
                   </li>
                   <li>
-                    <i class="fa-brands fa-wpforms fa-2xl"></i>
+                    <i className="fa-brands fa-wpforms fa-2xl"></i>
                     <a className='text'> WPF </a>
                   </li>
                 </ul>
@@ -112,7 +112,7 @@ function SkillsSection() {
                   <li>
                     <svg height="2em" width="50" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                       <g fill='#fff'>
-                        <path class="cls-1" d="M374.31,23.47,184.46,209.65,68,117.94,22.12,141.78V369.24L68,393.08l116.48-91.71L374.31,487.55l115.57-46.77V70.24ZM66.15,326.13V184.89l75.21,70.62Zm310.91,29.35-129.31-100,129.31-100V355.48Z"/>
+                        <path d="M374.31,23.47,184.46,209.65,68,117.94,22.12,141.78V369.24L68,393.08l116.48-91.71L374.31,487.55l115.57-46.77V70.24ZM66.15,326.13V184.89l75.21,70.62Zm310.91,29.35-129.31-100,129.31-100V355.48Z"/>
                       </g>
                     </svg>
                     <a className='text'> Visual Studio </a>
@@ -128,7 +128,7 @@ function SkillsSection() {
                     <a className='text'> Visual Studio Code </a>
                   </li>
                   <li style={{marginTop: '25px'}}>
-                    <i class="fa-brands fa-github fa-2xl"></i>
+                    <i className="fa-brands fa-github fa-2xl"></i>
                     <a className='text'> Github </a>
                   </li>
                   <li style={{marginTop: '25px'}}>

@@ -1,24 +1,24 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import '../../App.css';
 import '../css/ContactMeSection.css';
-import emailjs from 'emailjs/browser';
+import emailjs from '@emailjs/browser';
 
 function ContactMeSection() {
-
-    const sendEmail = () => {
-        const form = useRef();
-
-        const send = (e) => {
-            e.preventDefault();
-
-            emailjs.sendForm(process.env.REACT_SERVICE_ID, process.env.REACT_TEMPLATE_ID, form.current)
-                .then((result) => {
-
-                }, (error) => {
-
-                });
-        }
-    }
+   
+    const sendEmail = (e) => {
+        e.preventDefault();
+        
+        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, '#form', process.env.REACT_APP_PUBLIC_KEY)
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        ); 
+        
+    };
 
   return (
     <div className='container'>
@@ -27,15 +27,15 @@ function ContactMeSection() {
             </div>
 
             <div className='contact-container-info'>
-                <div className='form'>
+                <form id='form' onSubmit={sendEmail}>
                     <div className='form-linear-text'>
-                        <input type='text' placeholder='Name' name='name-txtbox'/>
-                        <input type='email' placeholder='Email' name='email-txtbox'/>
+                        <input type='text' placeholder='Name' name='name-txtbox' required/>
+                        <input type='email' placeholder='Email' name='email-txtbox' required/>
                     </div>
-                    <input type='text' placeholder='Subject' name='subject-txtbox'/>
-                    <textarea placeholder='Message' name='message-txtbox'/>
-                    <button type='button'> Send Message </button>
-                </div>
+                    <input type='text' placeholder='Subject' name='subject-txtbox' required/>
+                    <textarea placeholder='Message' name='message-txtbox' required/>
+                    <button type='submit'> Send Message </button>
+                </form>
 
                 <div className='contacts'>
                     <ul>

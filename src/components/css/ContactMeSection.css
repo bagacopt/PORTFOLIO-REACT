@@ -49,7 +49,7 @@
     height: 30px;
 }
 
-.form{
+form{
     display: grid;
     align-items: center;
     width: 350px;
@@ -57,24 +57,20 @@
     margin-left: 480px;
 }
 
-.form textarea{
+form textarea{
     display: -webkit-flex;
-    resize: vertical;
+    resize: none;
+    overflow: hidden;
     text-align: left;
     justify-content: center;
     padding: 1em 1em 1em 1em;
-    
+    height: 144px;
 }
 
-.form textarea::placeholder{
-    text-align: center;
-    margin-top: 50%;
-    margin-bottom: 50%;
-}
 
-.form input, .form textarea, .form button{
+
+form input, form textarea, form button{
     position: relative;
-    height: 50px;
     background: #161A42;
     border-radius: 25px;
     border: none;
@@ -83,11 +79,12 @@
 }
 
 
-.form input, .form button{
+form input, form button{
     text-align: center;
+    height: 50px;
 }
 
-.form button{
+form button{
     justify-content: center;
 }
 
@@ -102,4 +99,24 @@
 
 .form-linear-text input:first-child{
     margin-right: 20px;
+}
+
+@media screen and (max-width: 960px){
+    .contact-container-info{
+        justify-content: start;
+    }
+
+    .contact-container-info #form{
+        margin-left: 50px;
+        margin-right: 30px;
+        width: 430px;
+    }
+
+    .contact-container-info #form input{
+        width: 100%;
+    }
+
+    .contact-container-info .contacts{
+        margin-right: 50px;
+    }
 }

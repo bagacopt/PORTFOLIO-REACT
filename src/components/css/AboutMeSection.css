@@ -65,56 +65,11 @@
     background: transparent;
 }
 
-@media screen and (max-width: 960px) {
-    .container {
-        display: block;
-        width: 100%;
-        justify-content: center;
-        background: #fff;
-        padding: 4rem;
-        padding: 0;
-    }
-  
-    .container-image {
-        display: flex;
-        margin-left: 10px;
-        margin-right: 20px;
-        margin-top: 100px;
-    }
+/* PHONE SECTION */
+@media screen and (max-width: 960px){
+    
+}
 
-    .container-img{
-        width: 300px;
-        height: 300px;
-    }
-
-    .container-separator{
-        display: none;
-    }
-
-    .container-text{
-        position: relative;
-        display: block;
-        margin-top: 100px;
-    }
-
-    .container-title{
-        position: absolute;
-        text-align: center;
-        margin-bottom: 300px;
-        
-    }
-
-    .container-title:first-child{
-        height: 50px;
-    }
-  
-    .container-text > p {
-      font-size: 16px;
-      align-content: center;
-      text-align: justify;
-    }
-
-    .container-text > a{
-        position:relative;
-    }
-  }
+@media screen and (mad-width: 875px){
+    
+}

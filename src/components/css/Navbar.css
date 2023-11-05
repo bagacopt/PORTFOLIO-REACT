@@ -166,3 +166,7 @@
       transition: 250ms;
     }
   }
+  
+  @media screen and (mad-width: 875px){
+      
+  }
