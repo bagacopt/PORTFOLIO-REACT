@@ -11,7 +11,8 @@ function ProjectsSection() {
 
             <div className='container-info'>
                 <div className='container-image'>
-                    <img src='../images/project-1.png'  />
+                    <img src='../images/project-1.png' className='img'/>
+                    <img src='../images/project1-showcase.gif' className='img-hover'/>
                 </div>
                 <div className='container-separator' />
                 <div className='container-image'>

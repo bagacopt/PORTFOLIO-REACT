@@ -16,9 +16,25 @@
 }
 
 .container-image img{
-    width: 100%;
+    width: 340px;
+    height: 200px;
     border-radius: 20px;
 }
+
+.container-image .img{
+    position: relative;
+}
+
+.container-image .img-hover{
+    position: absolute;
+    object-fit: contain;
+    opacity: 0;
+}
+
+.container-image .img-hover:hover{
+    opacity: 1;
+}
+
 
 @media screen and (max-width: 960px){
     
