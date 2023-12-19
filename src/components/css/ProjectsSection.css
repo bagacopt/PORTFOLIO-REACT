@@ -23,16 +23,11 @@
 
 .container-image .img{
     position: relative;
+    object-fit: fill;
 }
 
-.container-image .img-hover{
-    position: absolute;
-    object-fit: contain;
-    opacity: 0;
-}
-
-.container-image .img-hover:hover{
-    opacity: 1;
+.container-image:hover {
+    cursor: pointer;
 }
 
 
