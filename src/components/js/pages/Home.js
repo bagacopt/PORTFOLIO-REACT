@@ -13,21 +13,7 @@ function Home(){
             <HomeSection />
           </div>
 
-          <div id='about'>
-            <AboutMeSection />       
-          </div> 
-
-          <div id='skills'>
-            <SkillsSection />
-          </div>
-
-          <div id='projects'>
-            <ProjectsSection />
-          </div>
-
-          <div id='contact'>
-            <ContactMeSection />
-          </div>
+          
         </>
     )
 }
