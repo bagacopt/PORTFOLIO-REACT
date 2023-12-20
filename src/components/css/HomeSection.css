@@ -16,9 +16,9 @@
     display: flex;
     background: none;
     position: relative;
-    margin-top: 32px;
+    margin-top: 30px;
     cursor: pointer;
-    transition: all 0.3s ease-in-out;
+    animation: upAndDown 1s infinite alternate;
 }
 
 .fa-arrow-down{
@@ -26,8 +26,14 @@
     display: flex;
     justify-content: center;
     background: none;
-    animation: upAndDown 2s infinite alternate;
 }
+
+
+.up-down-animation{
+  animation: upAndDown 2s linear infinite;
+}
+
+
 
 @media screen and (max-width: 960px){
     
