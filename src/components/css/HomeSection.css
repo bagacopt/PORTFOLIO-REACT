@@ -18,7 +18,7 @@
     position: relative;
     margin-top: 30px;
     cursor: pointer;
-    animation: upAndDown 1s infinite alternate;
+    
 }
 
 .fa-arrow-down{
@@ -30,16 +30,7 @@
 
 
 .up-down-animation{
-  animation: upAndDown 2s linear infinite;
-}
-
-
-
-@media screen and (max-width: 960px){
-    
-}
-
-@media screen and (mad-width: 875px){
+  animation: moveUpDown 2s linear infinite;
 }
 
 @keyframes moveUpDown {
