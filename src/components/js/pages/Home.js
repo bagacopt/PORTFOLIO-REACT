@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../../App.css';
 import HomeSection from '../HomeSection';
 import AboutMeSection from '../AboutMeSection';
 import SkillsSection from '../SkillsSection';
@@ -11,6 +10,10 @@ function Home(){
         <>
           <div id='home'>
             <HomeSection />
+          </div>
+
+          <div id='about'>
+            <AboutMeSection />
           </div>
 
           

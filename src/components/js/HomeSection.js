@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import '../../App';
 import '../css/HomeSection.css';
+import '../../App.css';
 import ReactTyped from 'react-typed';
 
 function HomeSection() {

@@ -1,14 +1,15 @@
+.container{
+    justify-content: start;
+}
+
+
 .aboutme-container-image{
     display: block;
 }
 
 .container-title{
-    height: 150px;
-    width: 100%;
     display: flex;
     justify-content: center;
-    z-index: 0;
-    padding: 0;
     font-weight: bolder;
     align-items: center;
     text-decoration: underline;
