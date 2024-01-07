@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import '../css/HomeSection.css';
+import '../css/Home.css';
 import '../../App.css';
 import ReactTyped from 'react-typed';
 
-function HomeSection() {
+function Home() {
   const [arrowAnimation, setarrowAnimation] = useState(false);
 
   const arrowAnimationStart = () => setarrowAnimation(true);
@@ -24,4 +24,4 @@ function HomeSection() {
   );
 }
 
-export default HomeSection;
+export default Home;

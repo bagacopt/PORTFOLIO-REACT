@@ -1,8 +1,8 @@
 import React from 'react'
 import '../../App.css';
-import '../css/SkillsSection.css';  
+import '../css/Skills.css';  
 
-function SkillsSection() {
+function Skills() {
   return (
     <div className='container'>
         <div className='container-title'>
@@ -161,4 +161,4 @@ function SkillsSection() {
   )
 }
 
-export default SkillsSection
+export default Skills

@@ -1,8 +1,8 @@
 import React from 'react'
 import '../../App.css';
-import '../css/AboutMeSection.css';
+import '../css/About.css';
 
-function AboutMeSection(){
+function About(){
     return (
         <div className='container'>
             <div className='container-title'>
@@ -50,4 +50,4 @@ function AboutMeSection(){
     )
 }
 
-export default AboutMeSection;
+export default About;

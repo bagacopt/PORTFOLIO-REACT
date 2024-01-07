@@ -1,28 +1,28 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/js/pages/Navbar';
-import Home from './components/js/pages/Home';
-import About from './components/js/pages/AboutMe';
-import Skills from './components/js/pages/Skills';
-import Projects from './components/js/pages/Projects';
-import ContactMe from './components/js/pages/ContactMe';
-import Footer from './components/js/pages/Footer';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './components/js/Navbar';
+import Home from './components/js/Home';
+import About from './components/js/About';
+import Skills from './components/js/Skills';
+import Projects from './components/js/Projects';
+import ContactMe from './components/js/ContactMe';
+import Footer from './components/js/Footer';
 
-function App() {
+const App = () => {
   return (
-    <>
     <Router>
       <Navbar />
-      <Routes>
-        <Route path='/' exact Component={Home}/>
-        <Route path='/about' exact Component={About} />
-        <Route path='/skills' exact Component={Skills} />
-        <Route path ='/projects' exact Component={Projects} />
-        <Route path = '/contact' exact Component={ContactMe} />
-      </Routes>
-      <Footer />
+      <div className='container'>
+        <Routes>
+          <Route path='/' Component={Home} />
+          <Route path='/about' Component={About} />
+          <Route path='/skills' Component={Skills} />
+          <Route path='/projects' Component={Projects} />
+          <Route path='/contact' Component={ContactMe} />
+        </Routes>
+      </div>
+      <Footer />      
     </Router>
-    </>
   );
 }
 

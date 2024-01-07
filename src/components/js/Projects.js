@@ -1,8 +1,8 @@
 import React from 'react'
 import '../../App.css';
-import '../css/ProjectsSection.css';
+import '../css/Projects.css';
 
-function ProjectsSection() {
+function Projects() {
   return (
     <div className='container'>
             <div className='container-title'>
@@ -37,4 +37,4 @@ function ProjectsSection() {
   )
 }
 
-export default ProjectsSection
+export default Projects

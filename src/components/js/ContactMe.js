@@ -1,9 +1,9 @@
 import React from 'react'
 import '../../App.css';
-import '../css/ContactMeSection.css';
+import '../css/ContactMe.css';
 import emailjs from '@emailjs/browser';
 
-function ContactMeSection() {
+function ContactMe() {
    
     const sendEmail = (e) => {
         e.preventDefault();
@@ -70,4 +70,4 @@ function ContactMeSection() {
   )
 }
 
-export default ContactMeSection
+export default ContactMe

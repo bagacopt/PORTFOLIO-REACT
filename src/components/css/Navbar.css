@@ -1,5 +1,5 @@
 .navbar {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    background: #383955;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -16,6 +16,7 @@
     align-items: center;
     height: 80px;
     max-width: 1500px;
+    background: none;
   }
 
   .navbar-container Button{
@@ -25,6 +26,7 @@
   
   .navbar-logo {
     color: #fff;
+    background: none;
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
@@ -39,6 +41,7 @@
     grid-template-columns: repeat(4, auto);
     grid-gap: 10px;
     list-style: none;
+    background: none;
     text-align: center;
     width: 60vw;
     justify-content: center;
@@ -55,6 +58,7 @@
     align-items: center;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    background: #383955;
     height: 100%;
   }
   
@@ -102,7 +106,7 @@
     }
   
     .nav-menu.active {
-      background: #242222;
+      background: #383955;
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
